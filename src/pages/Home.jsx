@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from '../components/Hero'
+import Hero from '../Components/Hero'
 import FeatureCard from '../Components/FeatureCard'
 import MenuStrip from '../Components/MenuStrip'
 import Testimonials from '../Components/Testimonials'
