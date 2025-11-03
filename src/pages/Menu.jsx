@@ -1,44 +1,4 @@
-// import React from 'react'
-// import MenuStrip from '../Components/MenuStrip'
-
-
-// export default function Menu(){
-// return (
-//     <div className="text-white">
-//         <section className="bg-brand-darker py-20">
-//             <div className="max-w-6xl mx-auto px-6 text-center">
-//                 <h1 className="font-display text-6xl">On the Menu</h1>
-//             </div>
-//         </section>
-
-
-//         <MenuStrip image={'/images/menu-plate.jpg'} label={'gourmet plates'} />
-//         <MenuStrip image={'/images/menu-brews.jpg'} label={'craft brews'} />
-//         <MenuStrip image={'/images/menu-pairing.jpg'} label={'wine & dish pairings'} />
-
-
-//         <section className="max-w-6xl mx-auto px-6 py-20">
-//             <h2 className="font-display text-4xl text-center mb-8">Menu Favorites</h2>
-//             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-200">
-//             <div className="bg-gray-900 p-6">
-//                 <h3 className="font-semibold">Truffle Pasta</h3>
-//                 <p className="text-sm opacity-80">Dish description goes here</p>
-//             </div>
-//             <div className="bg-gray-900 p-6">
-//                 <h3 className="font-semibold">Steak Frites</h3>
-//                 <p className="text-sm opacity-80">Dish description goes here</p>
-//             </div>
-//             <div className="bg-gray-900 p-6">
-//                 <h3 className="font-semibold">Margherita Pizza</h3>
-//                 <p className="text-sm opacity-80">Dish description goes here</p>
-//             </div>
-//             </div>
-//         </section>
-//     </div>
-// )
-// }
 import React from "react";
-import { motion } from "framer-motion";
 
 export default function MenuPage() {
     return (

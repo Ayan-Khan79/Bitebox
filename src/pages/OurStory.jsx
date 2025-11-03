@@ -1,5 +1,4 @@
 import React from 'react'
-import FeatureCard from '../Components/FeatureCard'
 
 
 export default function OurStory(){
