@@ -1,0 +1,38 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* custom styles to mimic your dark theme and typographic look */
+:root{
+--brand-dark: #1f1f21;
+}
+
+
+body{
+@apply bg-brand-dark text-gray-100;
+}
+
+
+.h1-display{
+@apply font-display text-5xl md:text-7xl tracking-wider;
+}
+
+
+.btn-oval{
+@apply inline-block border border-white rounded-full px-8 py-4 text-sm text-center;
+}
+.animate-shake {
+    animation: shake 0.3s ease;
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-6px); }
+    50% { transform: translateX(6px); }
+    75% { transform: translateX(-4px); }
+    100% { transform: translateX(0); }
+  }
+  
