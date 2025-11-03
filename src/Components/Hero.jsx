@@ -53,3 +53,4 @@ export default function Hero({ title, subtitle, video, image, ctaText, ctaLink='
     </section>
   )
 }
+

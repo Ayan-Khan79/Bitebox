@@ -1,6 +1,9 @@
-import React from 'react';
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Footer() {
+  const navigate = useNavigate();
+
   return (
     <footer className="bg-brand-darker text-gray-200 py-14">
       <div className="max-w-4xl mx-auto text-center">
@@ -9,9 +12,12 @@ export default function Footer() {
         </h3>
 
         <div className="mt-6">
-          <a href="/reserve" className="btn-oval">
+          <button
+            className="btn-oval"
+            onClick={() => navigate("/reserve")}
+          >
             Make a reservation today
-          </a>
+          </button>
         </div>
 
         <p className="mt-8 text-sm opacity-80">
@@ -22,3 +28,4 @@ export default function Footer() {
     </footer>
   );
 }
+
